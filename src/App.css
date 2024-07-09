@@ -1,0 +1,13 @@
+body{
+  overflow-x: hidden;
+}
+
+.seperator{
+  border-left: 100vw solid transparent;
+  border-bottom: 13.9vw solid #ffffff;
+}
+
+.seperator-2{
+  border-right: 100vw solid transparent;
+  border-top: 15vw solid #fff;
+}
