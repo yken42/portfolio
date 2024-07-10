@@ -11,7 +11,7 @@ export const Contact = forwardRef((props, ref) => {
         <div className="links sm:block sm:w-full md:w-1/4">
           <ul className="flex lg:mt-12 lg:ml-36 relative top-[28rem] sm:top-0">
             <li className="transition duration-150 w-24 px-4 mx-auto lg:hover:opacity-50">
-              <a href="https://github.com/yken42" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/yken42" target="_blank">
                 <img src={github} alt="GitHub" />
               </a>
             </li>
@@ -19,7 +19,6 @@ export const Contact = forwardRef((props, ref) => {
               <a
                 href="https://www.linkedin.com/in/yair-ken-7a08b3236/"
                 target="_blank"
-                rel="noopener noreferrer"
               >
                 <img src={linkdin} alt="LinkedIn" />
               </a>
