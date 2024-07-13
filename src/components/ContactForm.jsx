@@ -23,7 +23,7 @@ export const ContactForm = () => {
   return (
     <form
       ref={form}
-      className="md:w-[25rem] bg-[#5C51D6]/80 rounded-lg top-[-5rem] float-right xl:mr-48 font-poppins text-white shadow-2xl relative"
+      className="md:w-[25rem] bg-[#5C51D6]/80 rounded-lg top-[-5rem] 2xl:top-[-10rem] float-right xl:mr-48 font-poppins text-white shadow-2xl relative"
       onSubmit={(e) => sendEmail(e)}
     >
       <div className="form-title md:w-1/2 mx-auto max-w-lg p-4">

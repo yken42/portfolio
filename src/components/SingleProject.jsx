@@ -2,7 +2,7 @@ import React from 'react'
 
 export const SingleProject = ({ img, title, content, gitLink }) => {
   return (
-    <div className='transition duration-300 md:w-3/5 lg:w-2/5 xl:w-1/5 mt-10 md:mx-auto lg:mx-10 shadow-lg rounded-2xl md:hover:scale-105 border-black'>
+    <div className='transition duration-300 md:w-3/5 lg:w-2/5 xl:w-1/4 mt-10 md:mx-auto lg:mx-10 2xl:w-1/5 shadow-lg rounded-2xl md:hover:scale-105 border-black'>
         <div className='img-holder w-full '>
             <img src={img} alt='project' className='h-64 w-full rounded-2xl'/>
         </div>
