@@ -23,8 +23,7 @@ export const Hero = ({ scrollToSection }) => {
         </div>
         <div className="hidden md:block introduction w-[55%]">
           <p className="text-white mt-64 text-[24px] text-right">
-            I handle the development, deployment and maintenance of your
-            website, start to finish.
+          I am a skilled developer with expertise in development, deployment, and maintenance of websites. I thrive in collaborative environments and am eager to join a dynamic team.
           </p>
         </div>
       </div>
