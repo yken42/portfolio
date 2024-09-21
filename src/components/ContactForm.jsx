@@ -14,7 +14,7 @@ export const ContactForm = () => {
     e.preventDefault();
 
     if(!captchaVerified){
-      alert("PLease verify the reCAPTCHA");
+      alert("Please verify the reCAPTCHA");
       return;
     }
 

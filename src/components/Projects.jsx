@@ -2,6 +2,8 @@ import React, { forwardRef } from 'react'
 import { SingleProject } from './SingleProject'
 import tttwist from '../images/tic-tac-twist.png'
 import planit from '../images/plan-it.png'
+import todonodejs from '../images/todo-nodejs.png'
+
 
 export const Projects = forwardRef((props, ref) => {
   return (
@@ -11,6 +13,7 @@ export const Projects = forwardRef((props, ref) => {
         </div>
         <div className='all-projects flex flex-wrap'>
             <SingleProject img={tttwist} title={"Tic-Tac-Twist"} content={'A simple Tic-Tac-Toe game we are all familiar with but with a special twist of my own'} gitLink={'https://github.com/yken42/tic-tac-twist'} />
+            <SingleProject img={todonodejs} title={"Todo-List"} content={'A fully functional todo list app using Node.js, Express and mongoDB'} gitLink={'https://github.com/yken42/todo-list'} />
             <SingleProject img={planit} title={"Plan it"} content={'A productivity website to manage our tasks and todos, with an authentication and storage system'} gitLink={"https://github.com/yken42/plan-it"} />
         </div>
     </div>
